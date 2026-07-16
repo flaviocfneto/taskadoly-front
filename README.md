@@ -18,28 +18,25 @@ Root of the repo contains the built Vite output:
 
 ```
 index.html
-config.js          ← runtime config (EXEC_URL + API_KEY)
+config.js          ← runtime config (EXEC_URL + CLIENT_ID)
 assets/
   index-<hash>.js
   index-<hash>.css
 ```
 
 `config.js` is deliberately un-fingerprinted and loaded at runtime by
-`index.html` — so a deployment change (new Apps Script `/exec` URL, rotated
-API key) is a one-line edit here, no rebuild required.
+`index.html` — so a deployment change (new Apps Script `/exec` URL or OAuth
+client) is a one-line edit here, no rebuild required.
 
 ## First-time setup
 
-`config.js` ships with placeholders. To go live:
-
-1. In the Taskadoly spreadsheet's Apps Script project: Deploy → New deployment
-   → Web app (*Execute as: Me*, *Access: Anyone*). Copy the `/exec` URL into
-   `EXEC_URL`.
-2. In the spreadsheet: **Taskadoly → Set API key**, and put the same key in
-   `API_KEY`. (Reads work without it; the Done buttons need it. Anyone reading
-   the page source can see it — an accepted trade-off for a family chores
-   list, see the backend README's auth model.)
-3. Commit, push, and turn on Pages as above.
+`config.js` ships with placeholders. The full go-live walkthrough (OAuth
+client, sign-in configuration, Users allowlist, web-app deployment) lives in
+the backend repo's
+[SETUP.md](https://github.com/flaviocfneto/taskadoly/blob/main/SETUP.md).
+The short version for this repo: put the Apps Script `/exec` URL in
+`EXEC_URL`, the OAuth Web client ID in `CLIENT_ID`, push, and turn on Pages
+as above. Only Google accounts on the spreadsheet's `Users` tab can sign in.
 
 ## Updating the site
 
