@@ -1,6 +1,6 @@
-# Taskadoly Front
+# taskadoollii Front
 
-Public GitHub Pages host for the [Taskadoly](https://github.com/flaviocfneto/taskadoly)
+Public GitHub Pages host for the [taskadoollii](https://github.com/flaviocfneto/taskadoly)
 front-end — the household jobs "Today" list. Same system as
 [OCSW-ASSETS-PAGE](https://github.com/flaviocfneto/ocsw-assets-page): this repo
 holds only the built Vite output; the source lives in the private backend repo
