@@ -12,7 +12,7 @@ window.TASKADOLY_CONFIG = {
   // Apps Script Web App URL.
   //   Deploy > New deployment > Web app  (Execute as: Me, Access: Anyone)
   //   Must end in /exec
-  EXEC_URL: 'https://script.google.com/macros/s/REPLACE_WITH_DEPLOYMENT_ID/exec',
+  EXEC_URL: 'https://script.google.com/macros/s/AKfycbzeT2--q8n7nSj5fYwtdwDCCUh2RKTq1O_75-LK7k1EcHw1ph_R4e3AYC_ezG0wmkvb/exec',
 
   // OAuth 2.0 Web client ID from Google Cloud Console.
   //   APIs & Services > Credentials > OAuth client ID (Web application)
