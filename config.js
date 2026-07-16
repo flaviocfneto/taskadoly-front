@@ -19,5 +19,5 @@ window.TASKADOLY_CONFIG = {
   //   Must end in .apps.googleusercontent.com
   //   The SAME value must be set in Apps Script via
   //   "taskadoollii > Set Sign-In Client ID".
-  CLIENT_ID: 'REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com',
+  CLIENT_ID: '843575155529-hik9h9atsufe0ilrds6uaf50pm3nnu2k.apps.googleusercontent.com',
 };
