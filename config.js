@@ -1,5 +1,5 @@
 // ============================================================
-// Taskadoly — deployment configuration
+// taskadoollii — deployment configuration
 // ------------------------------------------------------------
 // This is the ONLY file you edit when the Apps Script deployment
 // or OAuth client changes. It is copied verbatim into the build
@@ -18,6 +18,6 @@ window.TASKADOLY_CONFIG = {
   //   APIs & Services > Credentials > OAuth client ID (Web application)
   //   Must end in .apps.googleusercontent.com
   //   The SAME value must be set in Apps Script via
-  //   "Taskadoly > Set Sign-In Client ID".
+  //   "taskadoollii > Set Sign-In Client ID".
   CLIENT_ID: 'REPLACE_WITH_OAUTH_CLIENT_ID.apps.googleusercontent.com',
 };
