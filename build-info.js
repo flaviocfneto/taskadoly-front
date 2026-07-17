@@ -5,5 +5,5 @@
 window.TASKADOLY_BUILD = {
   version: '0.2.0',
   sourceCommit: '397482a',
-  frontCommit: 'pending',
+  frontCommit: '0e17ee8',
 };
