@@ -3,7 +3,7 @@
 // Do not edit by hand; overwritten on every publish.
 // ============================================================
 window.TASKADOLY_BUILD = {
-  version: '0.1.0',
-  sourceCommit: 'ca66a61',
-  frontCommit: 'f806e91',
+  version: '0.2.0',
+  sourceCommit: '397482a',
+  frontCommit: 'pending',
 };
